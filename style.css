@@ -4,21 +4,24 @@ body {
 
 li, a {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 #business-name a {
-    color: azure;
+    color: #1a81dc;
+}
+
+nav {
+    padding: 15px;
 }
 
 header {
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(15, 15, 15);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 
 .nav_links {
@@ -34,9 +37,82 @@ header {
 }
 
 .nav_links li a {
-    color: azure;
+    color: #1a81dc;
 }
 
 .nav_links li:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.intro {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px;
+    margin: 0%;
+    animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change {
+    0%, 20%
+    {
+        background-image: url(images/carseat6.jpg);
+    }
+    30%, 40%
+    {
+        background-image: url(images/carseat11.jpg);
+    }
+    50%, 60%
+    {
+        background-image: url(images/carseat12.jpg);
+    }
+    70%, 85%
+    {
+        background-image: url(images/carseat8.jpg);
+    }
+    90%, 100%
+    {
+        background-image: url(images/carseat2.jpg);
+    }
+}
+
+.intro h1 {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 100;
+    padding-bottom: 5px;
+    margin: 0%;
+    text-shadow:
+        1px 1px 0 #1a81dc,  /* top-left shadow */
+        1px 1px 0 #1a81dc,   /* top-right shadow */
+        1px 1px 0 #1a81dc,   /* bottom-left shadow */
+        3px 1px  #1a81dc;    /* bottom-right shadow */
+}
+
+.intro p {
+    color: #ffffff;
+    font-size: 28px;
+    padding: 25px 400px;
+    font-weight: 100;
+    text-shadow:
+        1px 1px 0 #1a81dc,  
+        1px 1px 0 #1a81dc,   
+        1px 1px 0 #1a81dc,   
+        2px 1px 0 #1a81dc;   
+}
+
+.intro a {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease;
+    border: 2px solid #ffffff;
+}
+
+.intro a:hover {
+    color: rgb(255, 248, 248);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #000000;
 }
