@@ -2,23 +2,27 @@ body {
     margin: 0px;
 }
 
-li, a {
+#business-name a {
+    color: #2aaccd;
     font-weight: 500;
-    font-size: 18px;
     text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#business-name a {
-    color: azure;
+#business-name a:hover {
+    color: #ffffff;
+}
+
+nav {
+    padding: 15px;
 }
 
 header {
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 
 .nav_links {
@@ -29,14 +33,106 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
-    transition: background-color 0.3s ease;
+    padding: 0px 25px;
 }
 
 .nav_links li a {
-    color: azure;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.nav_links li:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+.nav_links li a:hover {
+    color: #2aaccd;
+}
+
+.intro {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 150px;
+    margin: 0%;
+    animation: change 20s infinite ease-in-out;
+}
+
+
+@keyframes change {
+    0%, 20%
+    {
+        background-image: url(images/carseat6.jpg);
+    }
+    30%, 40%
+    {
+        background-image: url(images/carseat11.jpg);
+    }
+    50%, 60%
+    {
+        background-image: url(images/carseat12.jpg);
+    }
+    70%, 85%
+    {
+        background-image: url(images/carseat8.jpg);
+    }
+    90%, 100%
+    {
+        background-image: url(images/carseat2.jpg);
+    }
+}
+
+.intro h1 {
+    color: #2aaccd;
+    font-size: 75px;
+    font-weight: 1000;
+    padding-bottom: 5px;
+    margin: 0px 500px;
+    text-shadow:
+        1px 1px 0 #000000,  /* top-left shadow */
+        1px 1px 0 #000000,   /* top-right shadow */
+        1px 1px 0 #000000,   /* bottom-left shadow */
+        3px 1px  #000000;    /* bottom-right shadow */
+}
+
+.upholstery {
+    font-style: italic;
+    font-size: 140px;
+}
+
+.restoration {
+    font-style: italic;
+    font-size: 70px;
+}
+
+.intro p {
+    color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    padding: 25px 400px;
+    font-weight: 100;  
+}
+
+.intro a {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    padding: 10px 20px 10px 20px;
+    background-color: #2aaccd;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: 2px solid #000000;
+}
+
+.intro a:hover {
+    color: rgb(255, 248, 248);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #000000;
+}
+
+.services {
+    padding: 200px;
+    background-color: #000000;
 }
