@@ -126,25 +126,25 @@ header {
 }
 
 .services {
-    background-color: #0a0a0a;
+    background-color: #2aaccd;
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
 .services h2 {
-    color: #2aaccd;
+    color: #000000;
     font-weight: 100;
     text-align: center;
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin: 0;
-    padding-bottom: 2vw;
+    padding: 2vw 2vw;
 }
 
 .first-row,
 .second-row {
     color: #ffffff;
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: left;
     margin: 10vh 5vw;
 }
@@ -157,9 +157,9 @@ header {
 .service-button {
     text-align: center;
     text-decoration: none;
-    font-size: 1vw;
-    background-color: #2aaccd;
-    color: #000000;
+    font-size: 1.5vw;
+    background-color: #000000;
+    color: #ffffff;
     padding: 1vh 1vw;
     border-radius: 5px;
     display: inline-block;
@@ -168,7 +168,12 @@ header {
 }
 
 .service-button:hover {
-    background-color: #016a84;
+    background-color: #676767;
+}
+
+.service-image {
+    width: 15vw;
+    height: 10w;
 }
 
 .appointment-contact-section {
@@ -202,7 +207,7 @@ header {
 }
 
 .column p {
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: #ffffff;
     text-shadow:
         1px 1px 0 #000000,
@@ -228,6 +233,73 @@ header {
     border: 1px solid #000000;
 }
 
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 1vw;
+    padding: 1vw 2vw;
+    background-color: #000000;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+
+.icon li {
+    margin-right: 2vw;
+}
+
+.icon li a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: #2aaccd;
+}
+
+.links-div {
+    display: flex;
+    justify-content: center;
+}
+
+.links-div li a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #2aaccd;
+}
+
+.links-div li {
+    margin-right: 3vw;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer h3 {
+    color: #2aaccd;
+}
+
+footer h4 {
+    color: #2aaccd;
+    margin: .5vw;
+}
+
+footer p {
+    color: #2aaccd;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .intro h1 {
@@ -249,5 +321,10 @@ header {
     .service-container {
         flex-direction: column;
         margin: 0 5vw;
+    }
+
+    .serivce-image {
+        max-width: 15vw;
+        max-height: 10vw;
     }
 }
