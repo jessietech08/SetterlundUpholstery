@@ -10,7 +10,7 @@
     <header>
         <h2 id="business-name"><a href="index.html">Setterlund Upholstery & Restoration</a></h2>
         <nav>
-            <ul class="nav_links">
+            <ul class="nav-links">
                 <li><a href="services.html">Services</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="appointments.html">Appointments</a></li>
@@ -19,7 +19,55 @@
         </nav>
     </header>
     <main>
-        <h1>Contact Us</h1>
+        <div class="contact-main"><h1>Contact Us</h1></div>
+        <div class="contact-background">
+            <div class="contact-section">
+                <h2>Contact Form</h2>
+                <p>
+                    Feel free to contact us if you have any questions! Be sure to fill out 
+                    all the textboxes and submit! We will do our best to get back to you ASAP!
+                </p>
+                <label for="your-name">YOUR NAME</label>
+                <span>*</span>
+                <input type="text" id="first-name" placeholder="First Name">
+                <input type="text" id="last-name" placeholder="Last Name">
+                <label for="email-address">EMAIL ADDRESS</label>
+                <span>*</span>
+                <input type="text" id="email-address" placeholder="Ex. example@gmail.com">
+                <label for="phone-number">PHONE NUMBER</label>
+                <span>*</span>
+                <input type="text" id="phone-number" placeholder="Ex. 253-201-4590">
+                <label for="message">MESSAGE</label>
+                <span>*</span>
+                <input type="text" id="message" placeholder="Please enter your questions">
+                <button type="button" id="submit">Submit</button>
+            </div>
+        </div>
+        
     </main>
+    <footer>
+        <div class="icon">
+            <ul>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="mail-outline"></ion-icon></a></li>
+            </ul>
+        </div>
+        <div class="links-div">
+            <ul>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="appointments.html">Appointments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <h4>Email Address: samsetterlund@gmail.com</h4>
+            <h4>Phone#: (253)-253-253</h4>
+            <p>&copy;<span id="current-year"></span> Setterlund Upholstery & Restoration. All rights reserved.</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

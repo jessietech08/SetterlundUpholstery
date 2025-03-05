@@ -450,3 +450,52 @@ footer p {
     width: 25vw;
     margin: 3vw;
 }
+
+.contact-main {
+    background-image: url(images/carseat11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 6vw 5vw;
+}
+
+.contact-main h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    color: #2aaccd;
+    text-shadow:
+    1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    3px 1px #000000;
+}
+
+.contact-background {
+    background-color: #2aaccd;
+    padding: 6vw 10vw 6vw 10vw;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    padding: 4vw 3vw 4vw 3vw;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.contact-section p {
+    padding: 2vw 3vw 2vw 3vw;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.form {
+    padding-top: 10vw;
+    padding-bottom: 25vw;
+    background-color: #ffffff;
+    margin: 0vw 8vw 0vw 8vw;
+}
