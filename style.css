@@ -380,7 +380,7 @@ footer p {
 
 .service-card p {
     font-size: 1.2vw;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
