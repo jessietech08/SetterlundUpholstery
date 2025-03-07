@@ -402,6 +402,8 @@ footer p {
     height: 12vw;
 }
 
+/* Gallery page */
+
 .gallery {
     background-color: #2aaccd;
 }
@@ -428,14 +430,30 @@ footer p {
     3px 1px #000000;
 }
 
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-column-layout h2 {
+    text-align: left; 
+    margin-right: 15vw;
+    margin-left: 14.5vw;
+    font-size: 2vw;
+    color: #ffffff;
+    text-shadow:
+    1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    3px 1px #000000;
+}
+
+
 .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.row h2 {
-    background-color: #2aaccd;
+    margin-bottom: 5vw;
 }
 
 .row {
@@ -450,6 +468,8 @@ footer p {
     width: 25vw;
     margin: 3vw;
 }
+
+/* Appointment Page */
 
 .appointment-main {
     background-image: url(images/carseat12.jpg);
